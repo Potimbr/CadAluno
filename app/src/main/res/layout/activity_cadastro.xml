@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".CadastroActivity">
+    tools:context=".ui.CadastroActivity">
 
     <TextView
         android:id="@+id/textviewTitulo"
@@ -39,7 +39,7 @@
         android:id="@+id/editTextCpf"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="textPassword"
+        android:inputType="text|number"
         android:hint="CPF"
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
@@ -52,7 +52,6 @@
         android:id="@+id/editTextEmail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="textPassword"
         android:hint="Email"
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
@@ -84,7 +83,7 @@
         android:background="@color/colorPrimary"
         android:textColor="@color/white"
         android:textSize="10pt"
-        android:text="CADASTRAR"
+        android:text="SALVAR"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"/>
